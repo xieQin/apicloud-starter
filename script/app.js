@@ -1,6 +1,6 @@
-require('./script/api')
-var des = require('./script/crypto_des.js')
-var jQuery = require('./node_modules/jquery/dist/jquery.min.js')
+require('./libs/api')
+var des = require('./libs/crypto_des.js')
+var jQuery = require('../node_modules/jquery/dist/jquery.min.js')
 
 apiready = function(){
   console.log("Hello APICloud");

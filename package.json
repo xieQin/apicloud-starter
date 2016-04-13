@@ -9,8 +9,14 @@
   "author": "xieq",
   "license": "ISC",
   "devDependencies": {
+    "browser-sync": "^2.12.1",
     "browserify": "^13.0.0",
+    "gulp": "^3.9.1",
+    "gulp-util": "^3.0.7",
     "jquery": "^2.2.3",
+    "vinyl-buffer": "^1.0.0",
+    "vinyl-source-stream": "^1.1.0",
+    "watchify": "^3.7.0",
     "zepto": "^1.0.1"
   }
 }

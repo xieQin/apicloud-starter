@@ -1,6 +1,6 @@
-require('../script/api')
-var des = require('../script/crypto_des.js')
-var jQuery = require('../node_modules/jquery/dist/jquery.min.js')
+require('../libs/api')
+var des = require('../libs/crypto_des.js')
+var jQuery = require('../../node_modules/jquery/dist/jquery.min.js')
 
 apiready = function(){
   var ver = api.version;
@@ -36,5 +36,5 @@ apiready = function(){
   $api.byId('sys-info').innerHTML = str;
 
   var encode = des.encode('This is test.', 'JiwLYG=-');
-  jQuery('#encode').html(encode)
+  jQuery('#encode').html(encode);
 };
