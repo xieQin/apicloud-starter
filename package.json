@@ -9,6 +9,7 @@
   "author": "xieq",
   "license": "ISC",
   "devDependencies": {
+    "browserify": "^13.0.0",
     "jquery": "^2.2.3",
     "zepto": "^1.0.1"
   }
