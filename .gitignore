@@ -49,4 +49,4 @@ Temporary Items
 node_modules/
 .svn/
 .bundle.js
-.dist/
+dist/
